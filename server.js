@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var routes = require('./controllers/burgers_controller.js');
 
 var app = express();
-var port = 3000;
+var port = process.env.PORT || 3000;
 
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: false }));

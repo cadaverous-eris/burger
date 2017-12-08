@@ -1,0 +1,1 @@
+insert into burgers (burger_name) values ("Classic Beef Burger"), ("Cheese Burger"), ("'I Can't Beleive it's not Burger!'");

@@ -1,0 +1,53 @@
+
+body {
+	background: #ffee00;
+}
+
+table {
+	width: 100%;
+}
+
+hr {
+	margin: 5px;
+}
+
+.burger-img {
+	width: 50%;
+	height: auto;
+}
+
+td {
+	padding: 5px;
+}
+
+.burger-holder {
+	background-color: #ffffff;
+	border: 1px solid #222222;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+}
+
+.burger-holder h5 {
+	text-align: left;
+}
+
+.eaten-burger {
+	color: #888888;
+}
+
+.title {
+	margin: 15px;
+	padding: 10px;
+	text-align: center;
+}
+
+.tagline {
+	font-weight: 600;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
